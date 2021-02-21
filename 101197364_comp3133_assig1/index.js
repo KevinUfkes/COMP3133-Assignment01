@@ -26,7 +26,7 @@ app.use('*', cors());
 server.applyMiddleware({ app });
 
 
-mongoose.connect('mongodb+srv://KevinUfkes:harpoonharpoon12345!@cluster0.gmis5.mongodb.net/comp3133-assignment01?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://KevinUfkes:<password>!@cluster0.gmis5.mongodb.net/comp3133-assignment01?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
